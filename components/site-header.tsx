@@ -37,7 +37,7 @@ export function SiteHeader() {
         </Sheet>
 
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <span className="font-bold text-xl">Grace Church</span>
+          <span className="font-bold text-xl">JCC Nakuru</span>
         </Link>
 
         <div className="hidden md:flex md:flex-1">
@@ -89,7 +89,7 @@ function MobileNav() {
   return (
     <div className="flex flex-col space-y-3 py-4">
       <Link href="/" className="flex items-center space-x-2">
-        <span className="font-bold text-xl">Grace Church</span>
+        <span className="font-bold text-xl">JCC Nakuru</span>
       </Link>
       <div className="flex flex-col space-y-1">
         {navItems.map((item) => (
