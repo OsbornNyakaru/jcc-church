@@ -29,7 +29,7 @@ export default function MemberRegistrationPage() {
           </CardHeader>
           <CardContent>
             <Suspense fallback={<div>Loading form...</div>}>
-              <MemberRegistrationForm />
+              <MemberRegistrationForm userId="exampleUserId" />
             </Suspense>
           </CardContent>
         </Card>

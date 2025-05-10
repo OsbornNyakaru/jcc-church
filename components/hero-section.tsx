@@ -9,7 +9,7 @@ export function HeroSection() {
     <section className="relative">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=600&width=1600"
+          src="/church-image-three.jpg?height=600&width=1600"
           alt="Church sanctuary"
           fill
           className="object-cover brightness-50"

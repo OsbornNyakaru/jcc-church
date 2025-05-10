@@ -32,7 +32,7 @@ export async function generateMetadata({
       authors: [sermon.speaker],
       images: [
         {
-          url: sermon.thumbnailUrl,
+          url: sermon.thumbnailUrl || "",
           width: 1200,
           height: 630,
           alt: sermon.title,
@@ -43,7 +43,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: sermon.title,
       description: sermon.description,
-      images: [sermon.thumbnailUrl],
+      images: sermon.thumbnailUrl ? [sermon.thumbnailUrl] : [],
     },
   }
 }
@@ -65,7 +65,7 @@ export default async function SermonPage({
     <div className="container py-8">
       <div className="grid gap-8 lg:grid-cols-3">
         <div className="lg:col-span-2">
-          <VideoPlayer videoId={sermon.videoId} />
+          {sermon.videoId && <VideoPlayer videoId={sermon.videoId} />}
 
           <div className="mt-6">
             <h1 className="text-3xl font-bold">{sermon.title}</h1>
