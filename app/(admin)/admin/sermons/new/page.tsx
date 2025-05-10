@@ -7,9 +7,18 @@ export const metadata = {
 }
 
 export default async function NewSermonPage() {
-  const speakers = await getSpeakers()
-  const series = await getSeries()
-  const topics = await getTopics()
+  const speakers = (await getSpeakers()).map((speaker: Record<string, any>) => ({
+    id: speaker.id,
+    name: speaker.name,
+  }))
+  const series = (await getSeries()).map((serie: Record<string, any>) => ({
+    id: serie.id,
+    title: serie.title,
+  }))
+  const topics = (await getTopics()).map((topic: Record<string, any>) => ({
+    id: topic.id,
+    name: topic.name,
+  }))
 
   return (
     <div className="container py-8">
