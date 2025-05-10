@@ -10,7 +10,7 @@ import { RecurringDonationForm } from "@/components/recurring-donation-form"
 
 export const metadata: Metadata = {
   title: "Give",
-  description: "Support the mission and ministries of Grace Community Church through your generous giving.",
+  description: "Support the mission and ministries of JCC Nakuru Church through your generous giving.",
 }
 
 export default function GivePage() {
@@ -96,7 +96,7 @@ export default function GivePage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Send checks payable to "Grace Community Church" to:
+                Send checks payable to "JCC Nakuru Church" to:
                 <br />
                 <br />
                 123 Faith Street
@@ -126,7 +126,7 @@ export default function GivePage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Consider including Grace Community Church in your estate planning.
+                Consider including JCC Nakuru Church in your estate planning.
               </p>
             </CardContent>
             <CardFooter>

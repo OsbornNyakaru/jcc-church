@@ -10,7 +10,7 @@ import { ClerkProvider } from "@clerk/nextjs"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Grace Community Church",
+  title: "JCC Nakuru Church",
   description: "A welcoming church community in Anytown, CA",
     generator: 'v0.dev'
 }

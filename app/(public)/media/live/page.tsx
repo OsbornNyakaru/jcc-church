@@ -76,7 +76,7 @@ export default async function LiveStreamPage() {
                 God's Word.
               </p>
               <p>
-                If you're new to Grace Community Church, we'd love to connect with you. Please fill out our digital
+                If you're new to JCC Nakuru Church, we'd love to connect with you. Please fill out our digital
                 connect card, and someone from our team will reach out to you.
               </p>
               <p>

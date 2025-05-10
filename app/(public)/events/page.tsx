@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata: Metadata = {
   title: "Events",
-  description: "Upcoming events and activities at Grace Community Church.",
+  description: "Upcoming events and activities at JCC Nakuru Church.",
 }
 
 export default function EventsPage({

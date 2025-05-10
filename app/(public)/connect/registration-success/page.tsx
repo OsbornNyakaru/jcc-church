@@ -16,7 +16,7 @@ export default function RegistrationSuccessPage() {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Thank you for registering as a member of Grace Community Church. Your registration has been submitted and is
+            Thank you for registering as a member of JCC Nakuru Church. Your registration has been submitted and is
             being reviewed by our team.
           </p>
           <p className="mt-4 text-muted-foreground">

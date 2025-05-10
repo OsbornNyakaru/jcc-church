@@ -112,7 +112,7 @@ export function AdminSidebar() {
       <aside className="fixed top-0 z-30 hidden h-screen w-64 border-r bg-background md:block">
         <div className="flex h-16 items-center border-b px-4">
           <Link href="/admin" className="flex items-center gap-2 font-bold">
-            <span className="text-xl">Grace Church</span>
+            <span className="text-xl">JCC Nakuru</span>
           </Link>
         </div>
         <ScrollArea className="h-[calc(100vh-4rem)] px-3 py-4">
@@ -131,7 +131,7 @@ export function AdminSidebar() {
           <SheetContent side="left" className="w-64 p-0">
             <div className="flex h-16 items-center border-b px-4">
               <Link href="/admin" className="flex items-center gap-2 font-bold">
-                <span className="text-xl">Grace Church</span>
+                <span className="text-xl">JCC Nakuru</span>
               </Link>
             </div>
             <ScrollArea className="h-[calc(100vh-4rem)] px-3 py-4">

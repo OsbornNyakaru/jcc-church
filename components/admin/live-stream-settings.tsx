@@ -52,7 +52,7 @@ export function LiveStreamSettings() {
               <Label htmlFor="stream-description-template">Default Description Template</Label>
               <Textarea
                 id="stream-description-template"
-                defaultValue="Join us for worship, prayer, and teaching from God's Word. Live from Grace Community Church."
+                defaultValue="Join us for worship, prayer, and teaching from God's Word. Live from JCC Nakuru Church."
                 placeholder="Enter default description template"
                 rows={3}
               />

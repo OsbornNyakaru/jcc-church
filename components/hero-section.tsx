@@ -20,7 +20,7 @@ export function HeroSection() {
       <div className="relative z-10 flex min-h-[600px] flex-col items-center justify-center text-center text-white">
         <div className="container max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-            Welcome to Grace Community Church
+            Welcome to JCC Nakuru Church
           </h1>
           <p className="mb-8 text-lg sm:text-xl">A place to belong, believe, and become</p>
 

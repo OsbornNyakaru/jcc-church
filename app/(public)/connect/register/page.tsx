@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export const metadata: Metadata = {
   title: "Member Registration",
-  description: "Register as a member of Grace Community Church",
+  description: "Register as a member of JCC Nakuru Church",
 }
 
 export default function MemberRegistrationPage() {

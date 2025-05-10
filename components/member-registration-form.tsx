@@ -92,7 +92,7 @@ export function MemberRegistrationForm({ userId }: MemberRegistrationFormProps) 
     <Card className="w-full">
       <CardHeader>
         <CardTitle>Church Membership Registration</CardTitle>
-        <CardDescription>Complete this form to register as a member of Grace Community Church.</CardDescription>
+        <CardDescription>Complete this form to register as a member of JCC Nakuru Church.</CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>

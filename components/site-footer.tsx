@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container py-8 md:py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Grace Community Church</h3>
+            <h3 className="mb-4 text-lg font-semibold">JCC Nakuru Church</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
@@ -108,7 +108,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Grace Community Church. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} JCC Nakuru Church. All rights reserved.</p>
         </div>
       </div>
     </footer>

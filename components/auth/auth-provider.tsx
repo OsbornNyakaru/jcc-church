@@ -38,5 +38,5 @@ export function SignUpButton({ children }: { children: ReactNode }) {
 }
 
 export function UserButton() {
-  return <div className="h-8 w-8 rounded-full bg-primary text-white flex items-center justify-center">JS</div>
+  return <div className="h-8 w-8 rounded-full bg-primary text-white flex items-center justify-center">G</div>
 }

@@ -10,7 +10,7 @@ import { NewsletterSignup } from "@/components/newsletter-signup"
 import { ServiceTimes } from "@/components/service-times"
 
 export const metadata: Metadata = {
-  title: "Welcome to Grace Community Church",
+  title: "Welcome to JCC Nakuru Church",
   description: "Join us for worship, community, and spiritual growth.",
 }
 
@@ -22,7 +22,7 @@ export default async function HomePage() {
       <section className="container grid gap-6 py-8 md:py-12 lg:py-16">
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
-            Welcome to Grace Community Church
+            Welcome to JCC Nakuru Church
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             A place where faith, community, and purpose come together. Join us as we worship, grow, and serve together.
